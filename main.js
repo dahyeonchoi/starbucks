@@ -13,3 +13,10 @@ function printImmediately(print){
 }
 
 printImmediately(()=>console.log('hello'))
+
+//Asynchronous callback
+function printWithDelay(print, timeout){
+    setTimeout(print, timeout);
+}
+
+printWithDelay()
